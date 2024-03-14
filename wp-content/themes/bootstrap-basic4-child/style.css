@@ -54,6 +54,7 @@ body {
 .upper-section {
     background-image: url('assets/img/swish-bg-2.png');
     background-size: cover;
+    background-position: center center;
     min-height: 1054px;
     text-align: center;
     color: #ffffff;
@@ -162,6 +163,43 @@ body {
     width: 180px;
     border: 0;
     border-radius: 4px;
+}
+
+.lower-section .image {
+    background-image: url('assets/img/iStock-1214595977.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-height: 800px;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    border-radius: 20px;
+}
+
+.lower-section .title-description {
+    font-family: "Lora", Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.lower-section .description {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.lower-section .float-right-custom {
+    float: right;
+    transform: rotate(180deg);
+    margin-bottom: -75px;
+}
+
+.lower-section .float-left-custom {
+    float: left;
+}
+
+.lower-section .square-image {
+    margin-bottom: -30px;
 }
 
 @media (min-width: 992px) {
