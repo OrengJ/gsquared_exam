@@ -1,4 +1,4 @@
-<section class="lower-section">
+<section class="lower-section mb-5">
     <div class="container-fluid">
         <div class="row mx-5 align-items-center">
             <div class="col-md-1"></div>
