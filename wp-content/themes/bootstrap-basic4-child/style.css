@@ -1,0 +1,181 @@
+/*
+    Theme Name:   Bootstrap Basic4 Child
+    Description:  My child theme based on Bootstrap Basic4
+    Author:       John Leomar Rampola
+    Template:     bootstrap-basic4
+    Version:      1.0.0
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+[tabindex="-1"]:focus:not(:focus-visible) {
+    outline: 0 !important;
+}
+
+::placeholder {
+    color: #b8b8b8;
+}
+
+.upper-section {
+    background-image: url('assets/img/swish-bg-2.png');
+    background-size: cover;
+    min-height: 1054px;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+}
+
+.upper-section h1 {
+    font-family: "Lora", Sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.upper-section p {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.upper-section .section-content {
+    text-align: center !important;
+}
+
+.upper-section .section-content .donation-form {
+    width: 100%;
+    background: white;
+    color: #333333;
+    border-radius: 15px;
+    min-height: 1000px;
+    box-shadow: 0px 6px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.upper-section .progress {
+    height: 21px;
+}
+
+.upper-section .bg-info {
+    background-color: #5d8c92 !important;
+}
+
+.upper-section .section-content .donation-form .donation-form-header p.header {
+    font-family: "Lora", Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.upper-section .section-content .donation-form .donation-form-header p.current {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+    color: #5d8c92;
+}
+
+.upper-section .section-content .donation-form .donation-form-header p.total {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.upper-section .section-content .donation-form .donation-form-amount p.description {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.upper-section .section-content .donation-form .donation-form-payment-method h2 {
+    font-family: "Lora", Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.upper-section .section-content .donation-form .donation-form-payment-form label {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.upper-section .section-content .donation-form .donation-form-personal-info h2 {
+    font-family: "Lora", Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.upper-section .section-content .donation-form .donation-form-personal-info-form {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 17px;
+}
+
+.upper-section .section-content .donation-form .donation-form-personal-info-form input[type="text"],
+.upper-section .section-content .donation-form .donation-form-personal-info-form input[type="email"],
+.upper-section .section-content .donation-form .donation-form-personal-info-form input[type="tel"] {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    color: #b8b8b8;
+    border: 1px solid #ebebeb;
+}
+
+.upper-section .section-content .donation-form .donation-form-personal-info-form input[type="submit"] {
+    background: #5d8c92;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    height: 50px;
+    width: 180px;
+    border: 0;
+    border-radius: 4px;
+}
+
+@media (min-width: 992px) {
+    .upper-section,
+    .lower-section {
+        width: 100%;
+    }
+}
+
+.row.justify-content-md-center {
+    text-align: center;
+}
+
+.col-md-8.text-center {
+    display: inline-block;
+    float: none;
+}
